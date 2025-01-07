@@ -11,7 +11,7 @@
 
 :root {
     --bg-color: #080808;
-    --second-bg-color: #131313;
+    --second-bg-color: White;
     --text-color: white;
     --main-color: #F5b041;
 }
@@ -75,4 +75,83 @@ body {
     font-size: 3.6rem;
     display: none;
     color: var(--main-color);
+}
+
+
+section {
+    min-height: 100vh;
+    padding: 10rem 12% 10rem;
+}
+
+.home {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15rem;
+}
+
+.home-content {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    text-align: left;
+    justify-content: center;
+    margin-top: 3rem;
+}
+
+span {
+    color: var(--main-color);
+}
+
+.logo span {
+    color: var(--main-color);
+}
+
+.home-content h3 {
+    margin-bottom: 2rem;
+    margin-top: 1rem;
+    font-size: 3.5rem;
+}
+
+.home-content h1 {
+    font-size: 7rem;
+    font-weight: 700;
+    margin-top: 1.5rem;
+    line-height: 1;
+}
+
+.home-img {
+    border-radius: 50%;
+}
+
+.home-img img {
+    position: relative;
+    top: 3rem;
+    width: 32vw;
+    border-radius: 50%;
+    box-shadow: 0 0 25px var(--main-color);
+    cursor: pointer;
+    transition: 0.4 ease-in-out;
+
+}
+
+.home-img img:hover {
+    box-shadow: 0 0 25px #080808;
+    box-shadow: 0 0 50px var(--bg-color);
+
+}
+
+.home-content p {
+    font-weight: 500;
+    font-size: 1.5rem;
+    line-height: 1.5;
+    max-width: 1000px;
+}
+
+.social-icons {
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    width: 4.5rem;
+    height: 4.5rem;
 }
