@@ -121,7 +121,7 @@ span {
 }
 
 .home-img {
-    border-radius: 50%;
+    border-radius: 60%;
 }
 
 .home-img img {
@@ -144,7 +144,7 @@ span {
 .home-content p {
     font-weight: 500;
     font-size: 1.5rem;
-    line-height: 1.5;
+    line-height: 1.8;
     max-width: 1000px;
 }
 
